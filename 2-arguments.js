@@ -1,8 +1,8 @@
-const args= process.argv.slice(2);
-const Best=args.length;
-if (Best===0) {
+const argcount= process.argv.length;
+
+if (argcount===2) {
     console.log('No argument');
-} else if (Best===1){
+} else if (argcount===3){
     console.log('Argument found');
 } else {
     console.log('Argument found')
