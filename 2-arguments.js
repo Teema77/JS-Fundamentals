@@ -5,5 +5,5 @@ if (argcount===2) {
 } else if (argcount===3){
     console.log('Argument found');
 } else {
-    console.log('Argument found')
+    console.log('Arguments found')
 }
